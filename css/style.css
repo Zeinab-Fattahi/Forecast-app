@@ -1,7 +1,51 @@
+/* DYNAMIC BACKGROUND : */
 .background {
   width: 100%;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+/* HEADER : */
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+}
+#logo {
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+.region {
+  display: flex;
+  align-items: center;
+}
+.search {
+  margin-right: 70px;
+}
+.search input {
+  width: 150px;
+  color: var(--white);
+  font-size: 16px;
+  background: none;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+.search input::placeholder {
+  color: var(--white);
+}
+.search__btn {
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: var(--white);
+}
+.temprature {
+  color: var(--white);
 }
