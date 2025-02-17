@@ -1,3 +1,6 @@
+import fetchData from "../services/httpReq.js";
+fetchData('tehran')
+
 const backgroundImage = document.querySelector(".background");
 
 // DYNAMIC BACKGROUND :
@@ -7,3 +10,5 @@ backgroundImage.style.filter = "brightness(85%)";
 backgroundImage.style.backgroundSize = "cover";
 backgroundImage.style.backgroundPosition = "center center";
 backgroundImage.style.backgroundRepeat = "no-repeat";
+console.log('hey');
+
